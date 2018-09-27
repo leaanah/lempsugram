@@ -9,15 +9,23 @@ body {
     grid-row-gap: 15px;
     margin-left: auto;
     margin-right: auto;
-    width: 915px;
+	width: 915px;
 }
 
 .picture {
     height: 293px;
     width: 293px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .picture img {
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.title {
+    position: absolute;
+    bottom: 0;
 }
