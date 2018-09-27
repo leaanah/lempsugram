@@ -1,5 +1,31 @@
 body {
-    background-color:#fafafa;
+	background-color:#fafafa;
+	margin: 0px;
+}
+header {
+	padding: 12px 32px;
+	width: 100%;
+	height: 56px;
+	border-bottom: solid 1px darkgray;
+	box-sizing: border-box;
+}
+header img {
+	height: 32px;
+	float: left;
+}
+.instagram {
+	margin-top: 3px;
+}
+#headerLine {
+	margin-top: 18px;
+	float: left;
+	width: 2px;
+	background: black;
+	height: 28px;
+	margin: 0 16px;
+}
+#heart {
+	float: right;
 }
 
 .feedWrapper {
