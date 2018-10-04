@@ -41,10 +41,11 @@ function mapPics() {
     // all babies
  
      var picsHtml = pics.map(function(pic) {
-         //push babies to home
+		 //push babies to home
+		 const randomColor = Math.floor(Math.random()*16777215).toString(16);
 
          return `
-            <div class="picture">
+            <div class="picture" style="background-color:#${randomColor};">
                 <div class="title">${pic.title}</div>
                 <img src="${pic.url}"/>
             </div>
